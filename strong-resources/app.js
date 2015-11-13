@@ -8,7 +8,7 @@ proxy.on('error', function (err, req, res) {
 	    'Content-Type': 'text/plain'
 	  });
 	  res.end(err);
-	}); 
+	});
 
 // If "-pm" is at the end of the app/domain name, or PM_URL matches the route,
 // proxy to the Process Manager. Otherwise, proxy to the application itself
